@@ -15,12 +15,95 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "How old are you?",
+    question: "Which of the following is a physical change?",
     answers: [
-      { text: "21", correct: true },
-      { text: "22", correct: false },
-      { text: "33", correct: false },
-      { text: "44", correct: false },
+      { text: "Rusting of iron", correct: false },
+      { text: "Burning wood", correct: false },
+      { text: "Melting ice", correct: true },
+      { text: "Digesting food", correct: false },
+    ],
+  },
+  {
+    question: "Which unit is NOT an SI base unit?",
+    answers: [
+      { text: "Kilogram", correct: false },
+      { text: "Second", correct: false },
+      { text: "Kelvin", correct: false },
+      { text: "Liter", correct: true },
+    ],
+  },
+  {
+    question: "How many significant figures are in the number 0.00450?",
+    answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: true },
+      { text: "4", correct: false },
+      { text: "5", correct: false },
+    ],
+  },
+  {
+    question: "Which statement best describes an element?",
+    answers: [
+      { text: "It can be separated by physical means", correct: false },
+      { text: "It consists of only one type of atom", correct: true },
+      { text: "It contains two or more compounds", correct: false },
+      { text: "It has a variable composition", correct: false },
+    ],
+  },
+  {
+    question: "What is the SI unit of energy?",
+    answers: [
+      { text: "Calorie", correct: false },
+      { text: "Electron volt", correct: false },
+      { text: "Joule", correct: true },
+      { text: "Watt", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a heterogeneous mixture?",
+    answers: [
+      { text: "Salt water", correct: false },
+      { text: "Air", correct: false },
+      { text: "Brass", correct: false },
+      { text: "Sand and water", correct: true },
+    ],
+  },
+  {
+    question:
+      "A substance that cannot be broken down into simpler substances by chemical means is called a:",
+    answers: [
+      { text: "Compound", correct: false },
+      { text: "Mixture", correct: false },
+      { text: "Element", correct: true },
+      { text: "Solution", correct: false },
+    ],
+  },
+  {
+    question: "Which temperature scale is an absolute temperature scale?",
+    answers: [
+      { text: "Celsius", correct: false },
+      { text: "Fahrenheit", correct: false },
+      { text: "Kelvin", correct: true },
+      { text: "Rankine", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following has the greatest mass?",
+    answers: [
+      { text: "1 mole of hydrogen atoms", correct: false },
+      { text: "1 mole of oxygen atoms", correct: false },
+      { text: "1 mole of carbon atoms", correct: false },
+      { text: "1 mole of iron atoms", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which law states that matter is neither created nor destroyed in a chemical reaction?",
+    answers: [
+      { text: "Law of definite proportions", correct: false },
+      { text: "Law of multiple proportions", correct: false },
+      { text: "Law of conservation of mass", correct: true },
+      { text: "Avogadro’s law", correct: false },
     ],
   },
 ];

@@ -66,7 +66,7 @@ body {
   margin-bottom: 10px;
 }
 
-.answer-contaioner {
+.answers-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -91,7 +91,7 @@ body {
 .answer-btn.correct {
   background-color: bisque;
   border-color: aquamarine;
-  color: chartreuse;
+  color: darkgreen;
 }
 
 .answer-btn.incorrect {
